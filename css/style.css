@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face	{
+	font-family: fatboy-slim;
+	src: url(../fonts/fbsbltc2.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+body{
+    font-family: fatboy-slim;
+    background-color: #000;
+    color: #fff;
+    cursor: crosshair;
+}
+
+h2{
+    font-size: 8rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.days,.hours,.minutes,.seconds{
+    font-size: 3rem;
+}
